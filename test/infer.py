@@ -4,7 +4,7 @@ from transformers import AutoTokenizer
 from src.nn.qwen25 import Qwen2ForCausalLM
 
 # 本地模型路径
-model_path = "Qwen2.5-0.5B-Instruct"
+model_path = "weights/Qwen2.5-0.5B-Instruct"
 
 # 加载模型（使用本地模型代码）
 model = Qwen2ForCausalLM.from_pretrained(
